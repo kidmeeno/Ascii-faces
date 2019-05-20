@@ -1,0 +1,29 @@
+.product__card__wrapper{
+    background: linear-gradient(#fdfbfb, #ebedee);
+    padding: 10px;
+    margin: 2vh 0;
+    cursor: pointer;
+}
+.product__card__wrapper:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.19), 0 0 0 rgba(0,0,0,0.23);
+}
+.card__header{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.product__card {
+    margin: 2vh 0;
+    padding: 10px;
+    background: #f3ece3;
+}
+.ascii__face{
+    /* font-size: 4em; */
+    /* text-align: center; */
+}
+.card__div{
+    background: tan;
+}
+.product__item__sort{
+    display: grid;
+    grid-template-columns: 1fr auto auto
+}
